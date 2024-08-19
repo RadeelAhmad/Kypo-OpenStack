@@ -1,0 +1,7 @@
+[ceph-nautilus]
+name=CentOS-8 - Ceph Nautilus
+baseurl=http://mirror.centos.org/centos/8/storage/x86_64/ceph-nautilus/
+gpgcheck=1
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-Storage
+
