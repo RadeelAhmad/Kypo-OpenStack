@@ -6,7 +6,7 @@ I will provide a detailed method for deploying **OpenStack** on **CentOS 8**.
 
 - CentOS 8
 - VMware
-- Configuration file
+- [Configuration file](https://github.com/RadeelAhmad/OpenStack/tree/main/yum.repos.d)
 
 ## Let’s Start…
 First of all, you need to configure your VMware according to the following screenshot.
