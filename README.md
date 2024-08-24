@@ -43,3 +43,4 @@ hostnamectl set-hostname openstackio --static
 ```
 `openstackio` is the name. You can use any name of your choice. This execution of the command will set the local hostname only.
 
+![image1](Images/a.png)
