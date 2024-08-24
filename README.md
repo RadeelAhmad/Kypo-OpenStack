@@ -83,3 +83,24 @@ Upon completing this, the following output will be displayed.
 <p align="center">
     <img src="Images/1.1.png" alt="image1">
 </p>
+
+Now use the following back-to-back commands.
+```bash
+systemctl disable - now firewalld NetworkManager 
+systemctl enable - now network 
+dnf -y install lvm2
+```
+
+<p align="center">
+    <img src="Images/d.png" alt="image1">
+</p>
+
+<p align="center">
+    <img src="Images/2.png" alt="image1">
+</p>
+
+Upon completing this, the following output will be displayed.
+
+<p align="center">
+    <img src="Images/2.1.png" alt="image1">
+</p>
