@@ -29,3 +29,13 @@ Please ensure that your internet is working properly and that all adapters are f
 
 ![image1](Images/Screenshot202-08-12231720.png)
 
+## CentOS
+
+On your terminal, and get root access. Now use this Command for OpenStack local hostname.
+
+```bash
+su
+hostnamectl set-hostname openstackio --static
+```
+`openstackio` is the name. You can use any name of your choice. This execution of the command will set the local hostname only.
+
