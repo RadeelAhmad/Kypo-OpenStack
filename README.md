@@ -12,8 +12,9 @@ I will provide a detailed method for deploying **OpenStack** on **CentOS 8**.
 First of all, you need to configure your VMware according to the following screenshot.
 
 <p align="center">
-<img width="60%" src="Images/Screenshot202-08-12231805.png">
+    <img src="Images/Screenshot202-08-12231805.png" alt="image1">
 </p>
+
 
 I set RAM to 32 GB but you set it to 8 GB minimum, depending upon your RAM size, and Processor set to 32.
 
