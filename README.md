@@ -86,8 +86,8 @@ Upon completing this, the following output will be displayed.
 
 Now use the following back-to-back commands.
 ```bash
-systemctl disable - now firewalld NetworkManager 
-systemctl enable - now network 
+systemctl disable --now firewalld NetworkManager 
+systemctl enable --now network 
 dnf -y install lvm2
 ```
 
