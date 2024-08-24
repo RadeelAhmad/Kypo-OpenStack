@@ -30,7 +30,10 @@ Make sure to match the configuration with the first screenshot at the top of thi
 
 Please ensure that your internet is working properly and that all adapters are functioning correctly. You can check them from the VMware Status bar or the Network panel of CentOS. Currently, ens224 is turned off.
 
-![image1](Images/Screenshot202-08-12231720.png)
+<p align="center">
+    <img src="Images/Screenshot202-08-12231720.png" alt="image1">
+</p>
+
 
 ## CentOS
 
@@ -42,4 +45,6 @@ hostnamectl set-hostname openstackio --static
 ```
 `openstackio` is the name. You can use any name of your choice. This execution of the command will set the local hostname only.
 
-![image1](Images/a.png)
+<p align="center">
+    <img src="Images/a.png" alt="image1">
+</p>
