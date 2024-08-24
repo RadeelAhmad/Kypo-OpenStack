@@ -48,3 +48,12 @@ hostnamectl set-hostname openstackio --static
 <p align="center">
     <img src="Images/a.png" alt="image1">
 </p>
+
+To configure your IP with your local host. I use an ens160 IP address. Use the command to map your IP to the local host. The name for the local host should be the same as set in the previous command. Then use the cat command with directories to verify your mapping:
+```bash
+echo "192.168.186.131 openstackio" >> /etc/hosts
+cat /etc/hosts
+```
+<p align="center">
+    <img src="Images/b.png" alt="image1">
+</p>
