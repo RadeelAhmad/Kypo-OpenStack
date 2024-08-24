@@ -54,6 +54,17 @@ To configure your IP with your local host. I use an ens160 IP address. Use the c
 echo "192.168.186.131 openstackio" >> /etc/hosts
 cat /etc/hosts
 ```
+
 <p align="center">
     <img src="Images/b.png" alt="image1">
+</p>
+
+Now use these Commands:
+```bash
+setenforce 0 
+sed -i 's/^SELINUX=.*/SELINUX=disabled/g' /etc/selinux/config
+```
+
+<p align="center">
+    <img src="Images/c.png" alt="image1">
 </p>
