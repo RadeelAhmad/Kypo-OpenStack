@@ -68,3 +68,18 @@ sed -i 's/^SELINUX=.*/SELINUX=disabled/g' /etc/selinux/config
 <p align="center">
     <img src="Images/c.png" alt="image1">
 </p>
+
+Now use following command the following command to install network
+```bash
+scripts dnf install network-scripts -y
+```
+
+<p align="center">
+    <img src="Images/1.png" alt="image1">
+</p>
+
+Upon completing this, the following output will be displayed.
+
+<p align="center">
+    <img src="Images/1.1.png" alt="image1">
+</p>
