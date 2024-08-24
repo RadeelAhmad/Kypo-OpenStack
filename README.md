@@ -104,3 +104,12 @@ Upon completing this, the following output will be displayed.
 <p align="center">
     <img src="Images/2.1.png" alt="image1">
 </p>
+
+Now use the following command to check the size and space of the hard drive you added in your VM configuration.
+```bash
+fdisk -l
+```
+
+<p align="center">
+    <img src="Images/e.png" alt="image1">
+</p>
