@@ -237,5 +237,5 @@ packstack --answer-file=answer.txt
 ```
 
 <p align="center">
-    <img src="Images/i.png" alt="image1">
+    <img src="Images/6.png" alt="image1">
 </p>
