@@ -125,8 +125,8 @@ mkfs.ext4 /dev/nvme0n3
 mkfs.ext4 /dev/nvme0n4
 ```
 
-![image1](image/f.png)
-![image1](image/g.png)
+![image1](Images/f.png)
+![image1](Images/g.png)
 
 <p align="center">
     <img src="Images/f.png" alt="image1">
