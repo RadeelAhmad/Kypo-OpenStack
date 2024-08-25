@@ -187,3 +187,13 @@ Upon completing this, the following output will be displayed.
 <p align="center">
     <img src="Images/5.1.png" alt="image1">
 </p>
+
+Now use these commands to allow access to file of Configuration.
+
+```bash
+packstack --gen-answer-file=answer.txt
+```
+
+<p align="center">
+    <img src="Images/Screenshot202-08-13011714.png" alt="image1">
+</p>
