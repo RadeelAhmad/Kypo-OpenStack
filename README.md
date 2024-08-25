@@ -125,13 +125,26 @@ mkfs.ext4 /dev/nvme0n3
 mkfs.ext4 /dev/nvme0n4
 ```
 
-![image1](Images/f.png)
-![image1](Images/g.png)
-
 <p align="center">
     <img src="Images/f.png" alt="image1">
 </p>
 
 <p align="center">
     <img src="Images/g.png" alt="image1">
+</p>
+
+Now use this Command:
+
+```bash
+yum install dnf-plugins-core
+```
+
+<p align="center">
+    <img src="Images/3.png" alt="image1">
+</p>
+
+Upon completing this, the following output will be displayed.
+
+<p align="center">
+    <img src="Images/3.1.png" alt="image1">
 </p>
