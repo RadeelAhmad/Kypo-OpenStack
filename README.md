@@ -239,3 +239,25 @@ packstack --answer-file=answer.txt
 <p align="center">
     <img src="Images/6.png" alt="image1">
 </p>
+
+After completing this, run the final command.
+
+```bash
+dnf install -y wget
+```
+
+<p align="center">
+    <img src="Images/j.png" alt="image1">
+</p>
+
+You can access your OpenStack on your browser using:
+
+```bash
+https://192.168.186.131/dashboard
+```
+
+## Note:
+
+Please make sure to use your own IP to access your OpenStack Dashboard. When prompted for login credentials at the OpenStack login screen, use the following:
+- **Username**: admin
+- **Password**: admin123 (use your own password as per your setup)
