@@ -222,3 +222,10 @@ Now, use `nano` to edit the configuration file `answer.txt`. Search and make cha
 
 `admin123` is a sample password. You can use a password of your choice. Press `Ctrl+X` to save and quit the file, then `press Y` to ensure that the file is written successfully and saved. After that, use this command. It will take a bit longer to complete the configuration we have just done.
 
+```bash
+packstack --answer-file=answer.txt
+```
+
+<p align="center">
+    <img src="Images/i.png" alt="image1">
+</p>
