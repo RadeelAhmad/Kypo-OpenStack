@@ -113,3 +113,25 @@ fdisk -l
 <p align="center">
     <img src="Images/e.png" alt="image1">
 </p>
+
+Now use these commands for more configuration making tables and groups in free space.
+
+```bash
+pvcreate -f /dev/nvme0n2
+pvs 
+vgcreate -f cinder-volumes /dev/nvme0n2 
+vgs 
+mkfs.ext4 /dev/nvme0n3 
+mkfs.ext4 /dev/nvme0n4
+```
+
+![image1](image/f.png)
+![image1](image/g.png)
+
+<p align="center">
+    <img src="Images/f.png" alt="image1">
+</p>
+
+<p align="center">
+    <img src="Images/g.png" alt="image1">
+</p>
