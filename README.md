@@ -197,3 +197,28 @@ packstack --gen-answer-file=answer.txt
 <p align="center">
     <img src="Images/Screenshot202-08-13011714.png" alt="image1">
 </p>
+
+Now, use `nano` to edit the configuration file `answer.txt`. Search and make changes to the following lines. Use `ctrl+w` to search and arrows to move the cursor.
+
+- CONFIG_DEFAULT_PASSWORD=admin123
+- CONFIG_HEAT_INSTALL=y
+- CONFIG_MAGNUM_INSTALL=y
+- CONFIG_SSL_CERT_DIR=~/packstackca/
+- CONFIG_SSL_CACERT_SELFSIGN=y
+- CONFIG_SSL_CERT_SUBJECT_C=ID
+- CONFIG_SSL_CERT_SUBJECT_ST=Punjab
+- CONFIG_SSL_CERT_SUBJECT_L=Islamabad
+- CONFIG_KEYSTONE_ADMIN_PW=admin123
+- CONFIG_CINDER_VOLUMES_CREATE=n
+- CONFIG_NEUTRON_OVN_BRIDGE_MAPPINGS=extnet:br-ex
+- CONFIG_NEUTRON_OVN_BRIDGE_IFACES=br-ex:ens160
+- CONFIG_NEUTRON_OVN_BRIDGES_COMPUTE=br-ex
+- CONFIG_NOVA_LIBVIRT_VIRT_TYPE=qemu
+- CONFIG_HORIZON_SSL=y
+- CONFIG_SWIFT_STORAGES=/dev/nvme0n3,/dev/nvme0n4
+- CONFIG_SWIFT_STORAGE_REPLICAS=2
+- CONFIG_SWIFT_STORAGE_FSTYPE=ext4
+- CONFIG_PROVISION_DEMO=n
+
+`admin123` is a sample password. You can use a password of your choice. Press `Ctrl+X` to save and quit the file, then `press Y` to ensure that the file is written successfully and saved. After that, use this command. It will take a bit longer to complete the configuration we have just done.
+
