@@ -148,3 +148,25 @@ Upon completing this, the following output will be displayed.
 <p align="center">
     <img src="Images/3.1.png" alt="image1">
 </p>
+
+Then use the following command to enable some power tools etc.
+
+```bash
+yum config-manager --set-enabled powertools
+dnf install -y centos-release-openstack-train
+```
+
+
+<p align="center">
+    <img src="Images/h.png" alt="image1">
+</p>
+
+<p align="center">
+    <img src="Images/4.png" alt="image1">
+</p>
+
+Upon completing this, the following output will be displayed.
+
+<p align="center">
+    <img src="Images/4.1.png" alt="image1">
+</p>
