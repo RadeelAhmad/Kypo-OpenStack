@@ -22,9 +22,9 @@ Add 5 hard drives, 100 GB for CentOS, which is already available starting from 2
 
 Add 3 network adapters to the CentOS VM configuration in VMware settings. One adapter is already available, and you need to add 2 more.
 
-Your cent OS Network Adapter should be at **NAT** settings
-- The second network adapter will be a **HOST-only** setting.
-- The third network adapter will be a **bridged** connection.
+Your cent OS Network Adapter should be at `NAT` settings
+- The second network adapter will be a `HOST-only` setting.
+- The third network adapter will be a `bridged` connection.
 
 Make sure to match the configuration with the first screenshot at the top of this article. Name your VM and set the username and password for your CentOS login screen. Leave the other settings as they are. Close the settings and then turn on your VM. The installation process of CentOS is fully automated.
 
