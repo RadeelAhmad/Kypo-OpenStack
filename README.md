@@ -162,6 +162,15 @@ dnf install -y centos-release-openstack-train
 </p>
 
 <p align="center">
+    <img src="Images/i.png" alt="image1">
+</p>
+
+After this, we will utilize the following command to install the necessary and additional packages, which will take some time.
+```bash
+dnf update –y
+```
+
+<p align="center">
     <img src="Images/4.png" alt="image1">
 </p>
 
@@ -170,6 +179,7 @@ Upon completing this, the following output will be displayed.
 <p align="center">
     <img src="Images/4.1.png" alt="image1">
 </p>
+
 
 Now it’s time to install OpenStack. Use the following command to install OpenStack. 
 It will also take some time to download and install packages. Also you need some changes in the configuration file in yum.repos.d
