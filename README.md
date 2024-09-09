@@ -240,7 +240,13 @@ packstack --answer-file=answer.txt
     <img src="Images/6.png" alt="image1">
 </p>
 
-After completing this, run the final command.
+Upon completing this, the following output will be displayed.
+
+<p align="center">
+    <img src="Images/6.1.png" alt="image1">
+</p>
+
+Run the final command.
 
 ```bash
 dnf install -y wget
