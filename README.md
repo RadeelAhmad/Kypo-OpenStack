@@ -262,6 +262,10 @@ You can access your OpenStack on your browser using:
 https://192.168.186.131/dashboard
 ```
 
+<p align="center">
+    <img src="Images/Openstack.jpg" alt="image1">
+</p>
+
 ## Note:
 
 Please make sure to use your own IP to access your OpenStack Dashboard. When prompted for login credentials at the OpenStack login screen, use the following:
